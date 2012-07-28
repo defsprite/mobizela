@@ -32,11 +32,11 @@ img {
 // larger 420px height
 @media screen and (min-height: 420px) {
 
-	#logo{
+	#logo img{
 		height: 120px;
 	}
 
-  #vuvu{
+  #vuvu img {
 		height: 360px;
 	}
 }
@@ -44,11 +44,22 @@ img {
 // larger 620px height
 @media screen and (min-height: 620px) {
 
-	#logo{
-		height: 180px;
+	#logo img {
+		height: 120px;
 	}
 
-	#vuvu{
-		height: 420px;
+	#vuvu img {
+		height: 320px;
+	}
+}
+
+@media screen and (max-height: 419px) {
+
+	#logo img {
+		height: 60px;
+	}
+
+	#vuvu img {
+		height: 200px;
 	}
 }

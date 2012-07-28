@@ -9,11 +9,6 @@ soundManager.setup({
   }
 );
 
-function annoy() {
-  soundManager.play('mySound', {
-    onfinish:annoy
-  });
-}
 
 soundManager.onready(function () {
   soundManager.createSound({
@@ -26,6 +21,18 @@ soundManager.onready(function () {
 
 });
 
+function annoy() {
+  soundManager.play('mySound', {
+    onfinish: annoy
+  });
+}
+
+
 document.getElementById("container").addEventListener("click", function() {
   annoy();
+  setInterval(function() {
+    annoy();
+  }, 60000)
 });
+
+
