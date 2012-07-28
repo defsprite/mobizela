@@ -18,10 +18,34 @@ body{
 
 .logo{
 	width: 100%; // used to center image
-	height: 100px; // height of image (change with media )
+	height: 100px; // height of image (change with media Q)
 }
 
 .vuvu{
-	width: 100%;
-	height: 300px;
+	width: 100%; // used to center image
+	height: 300px; // height of image (change with media Q)
+}
+
+// larger 420px height
+@media screen and (min-height: 420px) {
+
+	.logo{
+		height: 120px;
+	}
+
+	.vuvu{
+		height: 360px;
+	}
+}
+
+// larger 620px height
+@media screen and (min-height: 620px) {
+
+	.logo{
+		height: 180px;
+	}
+
+	.vuvu{
+		height: 420px;
+	}
 }
