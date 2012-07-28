@@ -6,3 +6,22 @@
 .container {
   margin: 0 auto;
 }
+
+body{
+	background-image: url('/img/vuvu-bg.png');
+}
+
+.wrap{
+	width: 100%;
+	height: 100%;
+}
+
+.logo{
+	width: 100%; // used to center image
+	height: 100px; // height of image (change with media )
+}
+
+.vuvu{
+	width: 100%;
+	height: 300px;
+}
