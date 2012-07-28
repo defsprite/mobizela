@@ -16,12 +16,17 @@ body{
 	height: 100%;
 }
 
-.logo{
-	width: 100%; // used to center image
-	height: 100px; // height of image (change with media )
+#logo, #vuvu, #link {
+  margin: 0 auto;
+  text-align: center;
 }
 
-.vuvu{
-	width: 100%;
-	height: 300px;
+#link {
+  margin-top: 2em;
 }
+
+img {
+  max-width: 100%;
+}
+
+
